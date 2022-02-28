@@ -1,0 +1,111 @@
+/* livvic-regular - latin */
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/livvic-v11-latin-regular.woff2") format("woff2"),
+       url("../fonts/livvic-v11-latin-regular.woff") format("woff");
+}
+/* livvic-600 - latin */
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/livvic-v11-latin-600.woff2") format("woff2"),
+       url("../fonts/livvic-v11-latin-600.woff") format("woff");
+}
+/* livvic-700 - latin */
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/livvic-v11-latin-700.woff2") format("woff2"),
+       url("../fonts/livvic-v11-latin-700.woff") format("woff");
+}
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Livvic", sans-serif;
+}
+.directors{
+  background-color: #004047;
+  position: relative;
+}
+.img-main{
+  width: 100px;
+  height: 200px;
+  margin-left: -62px;
+}
+.container{
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.big-div{
+  width: 1110px;
+  height: 722px;
+  text-align: center;
+  margin-top: -140px;
+}
+.dir-header{
+  color: #fff;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+}
+.dir-list{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+
+}
+.dir-items{
+  width: 326px;
+  height: 253px;
+  background-color: #012F34;
+  margin: 15px 15px 76px 15px;
+  padding: 32px;
+}
+.person-img{
+
+}
+.name{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 38px;
+  text-align: center;
+  color: #79C8C7;
+}
+.text{
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+} 
+.text1{
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.krestik{
+  margin-bottom: -68px;
+}
+
+.krestik1{
+  margin-bottom: -62px;
+}
+.tw-linkedin{
+  margin-top: 15px;
+  padding: 10px;  
+}
+.img-main-1{
+  width: 147px;
+  height: 100px;
+  margin-left: 1054px;
+}   
