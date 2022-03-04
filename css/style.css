@@ -32,22 +32,20 @@ body{
 .directors{
   background-color: #004047;
   position: relative;
+  background-image: url("../img/Group\ 8.png"), url("../img/Group\ 8\ Copy.png");
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
 }
-.img-main{
-  width: 100px;
-  height: 200px;
-  margin-left: -62px;
-}
+
 .container{
-  width: 1140px;
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 .big-div{
-  width: 1110px;
-  height: 722px;
   text-align: center;
-  margin-top: -140px;
 }
 .dir-header{
   color: #fff;
@@ -55,6 +53,9 @@ body{
   font-size: 48px;
   line-height: 48px;
   text-align: center;
+  margin: 0;
+  padding-top: 150px;
+  padding-bottom: 65px;
 }
 .dir-list{
   display: flex;
@@ -62,18 +63,16 @@ body{
   align-items: center;
   justify-content: space-between;
   list-style-type: none;
-
+  margin: 0;
+  padding: 0px 0px 80px 0px;
 }
 .dir-items{
-  width: 326px;
-  height: 253px;
+  width: 280px;
+  height: 251px;
   background-color: #012F34;
-  margin: 15px 15px 76px 15px;
-  padding: 32px;
+  margin: 0px 0px 70px 0px;
 }
-.person-img{
 
-}
 .name{
   font-weight: bold;
   font-size: 18px;
@@ -98,7 +97,7 @@ body{
 }
 
 .krestik1{
-  margin-bottom: -62px;
+  margin-top: 20px;
 }
 .tw-linkedin{
   margin-top: 15px;
@@ -108,4 +107,42 @@ body{
   width: 147px;
   height: 100px;
   margin-left: 1054px;
+}
+
+.li-big{
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.li-middle{
+  position: absolute;
+  z-index: 1;
+  width: 280px;
+  height: 251px;
+  background-color: #012f34;
+  text-align: center;
+  margin: 76px 10px 76px 0px;
+  padding: 32px;
+  transition: color 0.3s ease;
+}
+
+.person-img{
+  width: 98px;
+  height: 98px;
+}
+
+.li-small{
+  position: relative;
+  z-index: 0;
+  background-color: #002529;
+  width: 280px;
+  height: 251px;
+  text-align: center;
+  padding: 32px;
+  transition: color 0.3s ease;
+}
+
+.dir-items:hover .li-small {
+  z-index: 1;
 }   
